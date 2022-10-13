@@ -1,0 +1,7 @@
+# Composer foler
+vendor
+
+# Generated files
+*.lock
+dist
+node_modules

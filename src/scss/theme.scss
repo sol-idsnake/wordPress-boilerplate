@@ -1,0 +1,25 @@
+@import "normalize";
+@import "theme-adjustments";
+
+header {
+    background-color: #35363a;
+    color: #fff;
+    padding: 20px;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        margin: 0;
+    }
+}
+
+main {
+    padding: 40px;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 1080px;
+}

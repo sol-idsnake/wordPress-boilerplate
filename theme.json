@@ -1,0 +1,133 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "color": {
+            "background": false,
+            "custom": false,
+            "duotone": null,
+            "gradients": null,
+            "text": false
+        },
+        "layout": {
+            "contentSize": "1000px",
+            "wideSize": "100%"
+        },
+        "typography": {
+            "customFontSize": false,
+            "dropCap": false,
+            "fluid": true,
+            "fontWeight": false,
+            "letterSpacing": false,
+            "fontFamilies": [
+                {
+                    "fontFamily": "Arvo, serif",
+                    "slug": "arvo",
+                    "name": "Arvo",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Arvo",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": ["file:./dist/fonts/Arvo-Regular.ttf"]
+                        },
+                        {
+                            "fontFamily": "Arvo",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "src": ["file:./dist/fonts/Arvo-Bold.ttf"]
+                        }
+                    ]
+                },
+                {
+                    "fontFamily": "Lato, sans-serif",
+                    "slug": "lato",
+                    "name": "Lato",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Lato",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": ["file:./dist/fonts/Lato-Regular.ttf"]
+                        },
+                        {
+                            "fontFamily": "Lato",
+                            "fontStretch": "normal",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "src": ["file:./dist/fonts/Lato-Bold.ttf"]
+                        }
+                    ]
+                }
+            ],
+            "fontSizes": [
+                {
+                    "fluid": true,
+                    "name": "Medium Large",
+                    "size": "26px",
+                    "slug": "medium-large"
+                }
+            ]
+        },
+        "custom": {
+            "--wp--custom--{key}--{nested-key}": "26px"
+        }
+    },
+    "styles": {
+        "blocks": {
+            "core/heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--arvo)"
+                }
+            },
+            "core/paragraph": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--lato)",
+                    "fontSize": "var(--wp--preset--font-size--medium)"
+                }
+            },
+            "core/list": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--lato)",
+                    "fontSize": "var(--wp--preset--font-size--medium)"
+                }
+            },
+            "core/block": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--lato)",
+                    "fontSize": "var(--wp--preset--font-size--medium)"
+                }
+            }
+        },
+        "elements": {
+            "h1": {
+                "typography": {
+                    "fontSize": "clamp(2.5rem, 2.771vw + 1.783rem, 4rem)"
+                }
+            },
+            "h2": {
+                "typography": {
+                    "fontSize": "clamp(1.875rem, 2.771vw + 1.158rem, 3.375rem)"
+                }
+            },
+            "h3": {
+                "typography": {
+                    "fontSize": "clamp(1.75rem, 2.309vw + 1.027rem, 2.875rem)"
+                }
+            },
+            "h4": {
+                "typography": {
+                    "fontSize": "clamp(1.625rem, 1.848vw + 1.022rem, 2.375rem)"
+                }
+            },
+            "h5": {
+                "typography": {
+                    "fontSize": "clamp(1.5rem, 0.693vw + 1.321rem, 2.5rem)"
+                }
+            }
+        }
+    }
+}

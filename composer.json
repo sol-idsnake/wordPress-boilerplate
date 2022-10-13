@@ -1,0 +1,9 @@
+{
+  "$schema": "https://getcomposer.org/schema.json",
+  "require-dev": {
+    "php-stubs/wordpress-stubs": "^6.0"
+  },
+  "scripts": {
+    "update": "composer update"
+  }
+}
